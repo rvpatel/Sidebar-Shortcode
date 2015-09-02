@@ -43,7 +43,7 @@ function jc_widgets_shortcode($atts, $content=null){
 	}
 }
 
-add_shortcode('get_widgets', 'widgets_shortcode');
+add_shortcode('get_widgets', 'jc_widgets_shortcode');
 
 
 ?>
