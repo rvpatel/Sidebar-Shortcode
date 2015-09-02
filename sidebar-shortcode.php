@@ -22,7 +22,7 @@ function jc_sidebar_shortcode($atts, $content="null"){
 	
 }
 
-add_shortcode('get_sidebar', 'sidebar_shortcode');
+add_shortcode('get_sidebar', 'jc_sidebar_shortcode');
 
 
 
